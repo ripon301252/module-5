@@ -1,0 +1,83 @@
+/* Inline  */
+.parent{
+    /* padding: 20px; */
+    background-color: aqua; 
+}
+.child{
+    border: 2px solid black;
+    background: yellow;
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+    display: inline;
+    width: 400px;
+}
+
+/* Block */
+.parent-2{
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+       
+}
+.child-2{
+    border: 2px solid black;
+    background: yellow;
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+   
+}
+
+/* justify-content, align-items, flex-direction  */
+.parent-3{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    /* justify-content: start; */
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    height: 350px;
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    align-items: center;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column-reverse;
+       
+}
+.child-3{
+    border: 2px solid black;
+    background: yellow;
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+   
+}
+
+
+
+/* wrap */
+.parent-4{
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+       
+}
+.child-4{
+    border: 2px solid black;
+    background: yellow;
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+   
+}
